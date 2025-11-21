@@ -1,0 +1,5 @@
+*.php linguist-language=PHP
+*.css linguist-language=CSS
+*.html linguist-language=HTML
+# Ignore vendor or libraries (optional)
+vendor/* linguist-vendored
