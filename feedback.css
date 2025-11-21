@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    
+  }
+.regcontain {
+   padding: 16px;
+   margin: 2%;
+   size: 500%;
+   place-items: center;
+   margin: auto;                 
+   border: 2px solid #424745;        
+   border-radius: 8px;              
+   background-color: #d4d7d5;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);   
+   
+          
+  }
+
+  .registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 4px;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: 600;
+    font-style: italic;
+    color: #205b45;
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  /* Overwrite default styles of hr */    
+  hr {
+    border: 1px solid #171515;
+    margin-bottom: 25px;
+    
+  }
+  
+
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+
+  
+  
+
+  

@@ -1,0 +1,111 @@
+/* Center the form */
+body {
+    /* Full height viewport */
+    margin: 0;
+    font-family: Arial, sans-serif; /* Simple and clean font */
+    background-image: url('../Home Page/Src/pexels-andrew-7932264.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter:  blur(5px);
+}
+
+/* Header for the form */
+#headform {
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center; /* Center the header */
+    font-style: italic;
+    color: rgba(11, 70, 42, 0.952);
+    text-shadow: 0 0 3px #FF0000;
+    margin-bottom: 20px;
+}
+/*fieldset */
+.fieldset{
+    border: #6c6666;
+    border-radius: 8px;
+    text-align: center;
+    
+}
+
+/* Form container */
+form {
+    border: 2px solid #6c6666;
+    border-radius: 8px;
+    width: 400px; /* Limit width for compact look */
+    padding: 20px; /* Add padding for spacing inside */
+    background-color: white; /* Ensure a clean white form background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+    margin: 10px;
+    margin-top: -65px;
+
+    text-align: center;
+    
+}
+
+/* Input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+/* Buttons */
+button {
+    background-color: #04AA6D; /* Green button */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%; /* Full-width for better alignment */
+    margin: 10px 0;
+    font-size: 16px;
+}
+button:hover {
+    opacity: 0.9;
+}
+/* Cancel button */
+.cancelbtn {
+    background-color: #f44336; /* Red cancel button */
+    margin-top: 10px;
+}
+/* "Remember me" checkbox */
+label {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+/* Forgot password text */
+span.psw {
+    float: right;
+    margin-top: -5px;
+    font-size: 14px;
+}
+/* Responsive styling for smaller screens */
+@media screen and (max-width: 600px) {
+    form {
+        width: 90%; /* Adjust form width for smaller screens */
+    }
+
+    button, .cancelbtn {
+        width: 100%; /* Buttons take full width on smaller screens */
+    }
+
+    span.psw {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+}  
+.conimg1{
+display: block;
+margin-left: 35%;
+margin-right: auto;
+margin-top: -35%;
+width: 50%;
+height: 10%;
+}
